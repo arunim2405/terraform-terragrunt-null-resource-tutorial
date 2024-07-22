@@ -2,5 +2,5 @@ terraform {
   source = "../../terraform"
 }
 inputs = {
-  test_attr = "us-test"
+  bucket_region = "us-east-1"
 }
