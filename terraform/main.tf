@@ -9,7 +9,7 @@ resource "terraform_data" "example2" {
   input = var.test_attr_2
   depends_on = [ var.test_attr_2 ]
 }
-output "variable_output" {
+output "variable_output_2" {
   value = var.test_attr_2
 }
 
